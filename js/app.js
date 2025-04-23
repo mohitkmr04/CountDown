@@ -3,6 +3,8 @@ const endDate = "20 March 2030 1:54 Am"
 document.getElementById("end-date").innerText=endDate;
 const inputs = document.querySelectorAll("input")
 
+
+//Function to calculate remaining time
 function clock() {
     const end = new Date(endDate);
     const now = new Date();
